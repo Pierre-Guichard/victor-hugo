@@ -21,12 +21,25 @@ body {
   background-color: #282c34;
   color: white;
   display: grid;
-  grid-template-rows: 1fr 80vh 1fr;
+  grid-template-rows: 60px auto 60px;
+  }
+
+header nav a {
+  margin: 30px;
+}
+
+article>header>#meta>ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
 
 }
 
-header a{
-  margin: 30px;
+article>header>#meta>ul>li {
+  padding: 10px 20px;
+  margin: auto;
+  background-color: black;
+  border-radius: 0 10px 10px 10px;
 }
 
 a {
