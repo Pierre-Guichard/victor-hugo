@@ -1,0 +1,14 @@
+{{ define "main" }} {{ $section := .Site.GetPage "section" .Section }}
+<h1>Les articles</h1>
+<section class="content">
+        <ul>
+            <!-- Ranges through content/posts/*.md -->
+            {{ range .Pages }}
+            <li>
+                <a href="{{.Permalink}}">{{.Title}}</a>
+            </li>
+            {{ end }}
+        </ul>
+
+</section>
+{{ end }}
