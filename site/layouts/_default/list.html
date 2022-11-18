@@ -3,7 +3,7 @@
 <section class="content">
         <ul>
             <!-- Ranges through content/posts/*.md -->
-            {{ range .Pages }}
+            {{ range .Pages.Reverse }}
             <li>
                 <a href="{{.Permalink}}">{{.Title}}</a>
             </li>
