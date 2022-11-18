@@ -9,7 +9,9 @@ Hugo est un framework qui sert de générateur de site web statique basé sur le
 Il se base sur des fichiers markdowns pour générer des pages statiques => Léger et peut être transposé facilement à un autre générateur de site statique.
 Les fichiers peuvent ne pas être générés par [Netlify CMS](/articles/netlify-cms), tant qu'ils ont les infos nécessaires au bon format.
 
-Assez facile de mettre en place un template custom. Il y a un systeme de layout qui est repris pour chaque type de page, personnalisable si nécessaire.
+Assez facile de mettre en place un template custom (cf [Repo GitHub](https://github.com/Pierre-Guichard/victor-hugo)). Il y a un systeme de layout qui est repris pour chaque type de page, personnalisable si nécessaire. Des thèmes sont disponibles, comme pour wordpress.
+
+Les shortcodes sont supportés.
 
 Rapide à compiler, bien intégré avec [Netlify](/articles/netlify). Peut être utilisé sur docker, ou en local (avec la [CLI](https://gohugo.io/installation/))
 # Contre ?
