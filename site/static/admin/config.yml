@@ -2,7 +2,8 @@ backend:
   name: github
   branch: master
   repo: Pierre-Guichard/victor-hugo
-
+  # auth_scope: repo # this is needed to fork the private repo
+  open_authoring: true
 
 
 media_folder: "site/static/img"
