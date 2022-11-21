@@ -6,7 +6,7 @@
             {{ range .Pages.Reverse }}
             <a href="{{.Permalink}}">
                 <li class="card">
-                    <div class="thumbnail" style="background:
+                    <div class="thumbnail" style="background: center / contain no-repeat 
                         {{ if .Params.thumbnail }}
                             url('{{.Params.thumbnail}}')
                         {{ else }}

@@ -73,9 +73,6 @@ li.card .thumbnail {
   width: 100%;
   border-radius: .5rem;
   grid-row: 1/4;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
   
 }
 
