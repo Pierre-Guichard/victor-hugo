@@ -2,6 +2,7 @@
 title: Hugo
 tags:
   - Hugo
+thumbnail: https://www.plemaire.net/img/hugo-featured.png
 ---
 Hugo est un framework qui sert de générateur de site web statique basé sur le markdown
 
