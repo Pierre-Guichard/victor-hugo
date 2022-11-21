@@ -2,6 +2,7 @@
 title: Netlify CMS
 tags:
   - Netlify CMS
+thumbnail: https://upload.wikimedia.org/wikipedia/commons/d/d4/Netlify_CMS_logo.svg
 ---
 Netlify CMS est une single page app javascript, qui offre un système d'édition et de gestion de fichiers Markdown.
 
