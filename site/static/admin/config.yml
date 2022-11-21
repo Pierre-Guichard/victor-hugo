@@ -34,6 +34,7 @@ collections:
       - name: "thumbnail"
         label: "Image mise en avant"
         widget: "image"
+        required: false
   - name: "tags"
     label: "Tags"
     label_singular: "Tag"
