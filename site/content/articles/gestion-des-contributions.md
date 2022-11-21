@@ -15,6 +15,6 @@ Au moment de la publication, la branche créée pour la nouvelle publication et/
 # Mise en ligne
 À chaque nouveau commit sur la branche précisé ([Settings > Branch](https://app.netlify.com/sites/lively-cat-817b2d/settings/deploys)), la branche est par défaut déployée (Modifiable dans [Settings > Deploy Preview](https://app.netlify.com/sites/lively-cat-817b2d/settings/deploys))
 # Sitemaps
-Hugo donne la possibilité de générer automatiquement le sitemap. Il est paramétrable (cf [Doc](https://gohugo.io/templates/sitemap-template/))
+Hugo donne la possibilité de générer automatiquement le [sitemap](/sitemap.xml). Il est paramétrable (cf [Doc](https://gohugo.io/templates/sitemap-template/))
 # RSS 
-Des flux RSS peuvent être paramétrés avec Hugo
+Des flux [Rss](/index.xml) peuvent être paramétrés avec Hugo et adaptés aux besoins
