@@ -4,6 +4,7 @@ tags:
   - Netlify
   - Hugo
   - Netlify CMS
+thumbnail: https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png
 ---
 [Netlify](/articles/netlify) serait remplacé par Docker, pour permettre de déployer ailleurs les fichiers.
 
