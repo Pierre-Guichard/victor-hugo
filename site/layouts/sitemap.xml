@@ -1,0 +1,17 @@
+{{ printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
+
+
+<urlset xmlns="http://lively-cat-817b2d.netlify.app/sitemap/1.0">
+    {{ range (where .Data.Pages "Section" "not in" site.Params.noSitemapSections) }}
+        <url>
+            
+            <loc>http://lively-cat-817b2d.netlify.app{{ .Permalink }}</loc>
+
+            <lastmod>{{ safeHTML ( .Lastmod.Format "2006-01-02T15:04:05-07:00" ) }}</lastmod>
+
+            <changefreq>{{ .Sitemap.ChangeFreq }}</changefreq>
+
+            <priority>{{ .Sitemap.Priority}}</priority>
+        </url>
+    {{ end }}
+</urlset>
