@@ -4,9 +4,16 @@
         <ul>
             <!-- Ranges through content/posts/*.md -->
             {{ range .Pages.Reverse }}
-            <li>
-                <a href="{{.Permalink}}">{{.Title}}</a>
-            </li>
+            <a href="{{.Permalink}}">
+                <li class="card">
+                    <div class="thumbnail" {{ if .Params.thumbnail }}style="background: url('{{.Params.thumbnail}}')" {{ end }}>
+                    </div>
+                    <article>
+                        <h3>{{.Title}}</h3>
+                        <p>{{ .Summary | truncate 50 }}</p>
+                    </article>
+                </li>
+            </a>
             {{ end }}
         </ul>
 
