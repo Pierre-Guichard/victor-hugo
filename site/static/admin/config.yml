@@ -31,6 +31,9 @@ collections:
         multiple: true
         valueField: "name"
         searchFields: ["name"]
+      - name: "thumbnail"
+        label: "Image mise en avant"
+        widget: "image"
   - name: "tags"
     label: "Tags"
     label_singular: "Tag"
