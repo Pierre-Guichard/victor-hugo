@@ -3,7 +3,7 @@ title: Gestion des contributions
 tags:
   - Netlify CMS
   - Netlify
-thumbnail: https://www.google.com/url?sa=i&url=https%3A%2F%2Fgiphy.com%2Fexplore%2Fcat-typing&psig=AOvVaw1iE_ltmFigcRxdX594lAUe&ust=1669122564287000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCMCXhZ2sv_sCFQAAAAAdAAAAABAj
+thumbnail: ""
 ---
 Les contributions sont gérées grâce à [Netlify CMS](/articles/netlify-cms).
 
