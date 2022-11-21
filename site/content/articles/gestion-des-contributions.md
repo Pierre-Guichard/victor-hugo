@@ -17,4 +17,4 @@ Au moment de la publication, la branche créée pour la nouvelle publication et/
 # Sitemaps
 Hugo donne la possibilité de générer automatiquement le [sitemap](/sitemap.xml). Il est paramétrable (cf [Doc](https://gohugo.io/templates/sitemap-template/))
 # RSS 
-Des flux RSS peuvent être paramétrés avec Hugo
+Des flux [Rss](/index.xml) peuvent être paramétrés avec Hugo et adaptés aux besoins
