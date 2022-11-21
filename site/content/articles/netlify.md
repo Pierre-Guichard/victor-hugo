@@ -2,6 +2,7 @@
 title: Netlify
 tags:
   - Netlify
+thumbnail: https://upload.wikimedia.org/wikipedia/commons/b/b8/Netlify_logo.svg
 ---
 Netlify est une plateforme qui permet le déploiement automatique et rapide de sites statiques.
 
