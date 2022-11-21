@@ -14,3 +14,5 @@ Chaque nouvelle publication, ou chaque modification fait l'objet d'une branche. 
 Au moment de la publication, la branche créée pour la nouvelle publication et/ou ses modifications est mergée dans la branche dédiée à la publication (Modifiable dans le fichier yaml de config de [Netlify CMS](/articles/netlify-cms).
 # Mise en ligne
 À chaque nouveau commit sur la branche précisé ([Settings > Branch](https://app.netlify.com/sites/lively-cat-817b2d/settings/deploys)), la branche est par défaut déployée (Modifiable dans [Settings > Deploy Preview](https://app.netlify.com/sites/lively-cat-817b2d/settings/deploys))
+# Sitemaps
+Hugo donne la possibilité de générer automatiquement le sitemap. Il est paramétrable (cf [Doc](https://gohugo.io/templates/sitemap-template/))
