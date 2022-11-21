@@ -28,16 +28,25 @@ header nav a {
   margin: 30px;
 }
 
+main {
+  width: 80ch;
+
+}
+
+article {
+  text-align: left;
+}
 article>header>#meta>ul {
   list-style: none;
   padding: 0;
   display: flex;
-
+  flex-flow: row nowrap;
+  justify-content: flex-end;
 }
 
 article>header>#meta>ul>li {
   padding: 10px 20px;
-  margin: auto;
+  margin: 10px 10px;
   background-color: black;
   border-radius: 0 10px 10px 10px;
 }
